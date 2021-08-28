@@ -1,0 +1,138 @@
+.App__modal-background { 
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--dark-theme-tertiary);
+}
+
+.modal-background__add-contact-modal{ 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+
+  min-width: 400px;
+  min-height: 400px;
+
+  background-color: var(--dark-theme-secondary);
+
+  box-shadow: 0 0 8px 5px var(--dark-theme-quaternary);
+  border-radius: 10px;
+}
+
+.add-contact-modal__header-container { 
+  width: 80%; 
+  height: 50px;
+
+}
+
+.header-container__title-container { 
+  width: 100%; 
+  height: 46px; 
+}
+
+.title-container__title-name { 
+  padding-left: 10px;  
+
+  color: var(--dark-theme-quintenary);
+
+  font-size: 2.4rem;
+}
+
+.header-container__content-separator { 
+  width: 100%; 
+  height: 4px; 
+
+  background-color: var(--purple);
+}
+
+.add-contact-modal__contents-container { 
+  margin: 10px;
+  margin-bottom: 0;
+
+  width: 380px;
+  height: 300px;
+
+  background-color: var(--dark-theme-primary);
+}
+
+.contents-container__input-fields-container { 
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.contents-container__padding-area { 
+  width: 380px; 
+  height: 30px;
+
+  width: 380px;
+  height: 30px;
+
+  color: var(--dark-theme-quintenary);
+}
+
+#contact-input-field { 
+  padding: 10px;
+
+  width: 380px;
+  height: 30px;
+
+  color: var(--dark-theme-quintenary);
+
+  background-color: rgba(242, 244, 245, 0.1);
+
+  border-style: none;
+}
+
+.input-fields-container__input-separator {
+  width: 80%; 
+  height: 1px;
+}
+
+.add-contact-modal__button-container { 
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: 10px;
+
+  width: 380px; 
+  height: 30px;
+}
+
+.button-container__cancel-button { 
+  margin-left: auto; 
+  margin-right: 20px;
+
+  background-color: var(--dark-pink);
+}
+
+.button-container__finish-button { 
+  background-color: var(--dark-green);
+}
+
+#modal-buttons { 
+  width: 100px; 
+  height: 30px;
+
+  color: var(--dark-theme-quintenary);
+  filter: grayscale(0.4);
+
+  font-size: 1.1rem;
+
+  border-style: none; 
+  border-radius: 0 0 10px 10px;
+
+  transition: filter 250ms ease;
+
+  cursor: pointer; 
+}
+
+#modal-buttons:hover { 
+  filter: grayscale(0);
+}
